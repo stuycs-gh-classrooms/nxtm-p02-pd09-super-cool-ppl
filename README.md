@@ -6,7 +6,9 @@
 ---
 
 ### Project Description
-Whack-a-mole. There will be "moles" that show up in random places in the window, and the player will have to click them within a certain time frame to earn points. After missing 3 moles, they're out. If they successfully whack 10 moles, they will get smaller.
+Whack-a-mole. There will be regular and special "moles" that show up in random places in the window, and the player will have to click them within a certain time frame to earn points. Bombs will also show up randomly, and the player should avoid these. Each regular mole clicked will be +10 points, special are +30, and bombs are -20. After missing 5 moles or reaching -30 points, they're out. If they successfully whack 10 moles, they will get faster.
+
+similar to this: https://wutools.com/fun/whac-a-mole
 
 ### Skill Usage
 We will be using mouse control, random locations, shapes, classes, etc.
@@ -32,6 +34,7 @@ class Mole
 - int size
 - boolean pressed
 - int countdown
+- int type (reg, star, bomb)
 
 class Pointer
 - int size
