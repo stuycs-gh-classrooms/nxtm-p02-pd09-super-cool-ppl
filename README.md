@@ -6,21 +6,35 @@
 ---
 
 ### Project Description
-Provide a high-level description of your project. Include explanatory links if you think they will be helpful.
+Whack-a-mole. There will be "moles" that show up in random places in the window, and the player will have to click them within a certain time frame to earn points. After missing 3 moles, they're out. If they successfully whack 10 moles, they will get smaller.
 
 ### Skill Usage
-Explain what skills from this semester you will be using in this project, and how they will be used.
+We will be using mouse control, random locations, shapes, classes, etc.
 
 ### Controls
 How will your program be controlled? List all keyboard commands and mouse interactions.
 
 Keyboard Commands:
-- LIST OF COMMANDS HERE
+- space = pause
+- r = reset
 
 Mouse Control:
-- Mouse movement:
-- Mouse pressed:
+- Mouse movement: pointer moves with mouse.
+- Mouse pressed: if on mole, points will increase; if not, lives will decrease. 
 
 
 ### Classes
 What classes will you be creating for this project? Include the instance variables and methods that you believe you will need. You will be required to create at least 2 different classes. If you are going to use classes similar to those we've made for previous assignments, you will have to add new features to them.
+
+class Mole
+- int xcor
+- int ycor
+- int size
+- boolean pressed
+- int countdown
+
+class Pointer
+- int size
+- int lives
+- int xcor
+- int ycor
