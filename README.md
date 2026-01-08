@@ -3,7 +3,6 @@
 # NeXtCS Final Project
 ### Name 0: Avery Brosnick
 ### Name 1: Ruby Vaca 
-### Name 2: OTHER NAME HERE (delete this line if not applicable)
 ---
 
 ### Project Description
