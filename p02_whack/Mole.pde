@@ -12,4 +12,12 @@ class Mole {
   }
   
   //METHODS
+  void display() {
+  }
+  
+  boolean pressed() {
+    return false;
+  }
+  
+  
 }
