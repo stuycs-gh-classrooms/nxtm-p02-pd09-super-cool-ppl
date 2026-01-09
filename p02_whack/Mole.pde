@@ -8,6 +8,8 @@ class Mole {
   int type;
   
   //CONSTRUCTOR
+  void Mole() {
+  }
   
   //METHODS
 }
